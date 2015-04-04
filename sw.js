@@ -3,7 +3,7 @@ self.addEventListener('push', function(event) {
 
   var title = 'ピンポーン！';
   var body = 'ねぇねぇ、ちょっと話しかけてもいいかな？';
-  var icon = '/images/icon-192x192.png';
+  var icon = './images/icon-192x192.png';
   var tag = 'simple-push-demo-notification-tag';
 
   event.waitUntil(
