@@ -1,0 +1,15 @@
+{
+  "name": "ring-dong-push-notification",
+  "version": "0.0.1",
+  "authors": [
+    "mitsuruog"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
