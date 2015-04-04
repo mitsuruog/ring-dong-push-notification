@@ -155,7 +155,7 @@
             pushButton.disabled = false;
             pushButton.textContent = 'Enable Push Messages';
           });
-          document.querySelector("#subscription_id").innerHTML = "";
+          document.querySelector("#subscribe_id").innerHTML = "";
           document.querySelector("#subscription_endpoint").innerHTML = "";
         }).catch(function(e) {
         console.error('Error thrown while unsubscribing from push messaging.', e);
@@ -164,7 +164,7 @@
   }
 
   function sendSubscriptionToServer(subscription) {
-    document.querySelector("#subscription_id").innerHTML = subscription.subscriptionId;
+    document.querySelector("#subscribe_id").innerHTML = subscription.subscriptionId;
     document.querySelector("#subscription_endpoint").innerHTML = subscription.endpoint;
   }
 
